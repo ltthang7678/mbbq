@@ -27,7 +27,7 @@ html, body {
   position: absolute;
 }/* Vị trí của từng khối thời gian theo viewport units */
 #hours {
-  left: 59.93vw;  /* 639 / 1080 = ~59vw */ /* 2000 / 2340 = ~85.5vh */
+  left: 59.88vw;  /* 639 / 1080 = ~59vw */ /* 2000 / 2340 = ~85.5vh */
   top: 89.41vh; /* 2000 / 2340 = ~85.5vh */
 }
 
@@ -37,7 +37,7 @@ html, body {
 }
 
 #seconds {
-  left: 68.68vw;  /* 733 / 1080 = ~68vw */
+  left: 68.72vw;  /* 733 / 1080 = ~68vw */
   top: 89.41vh;
 }
 
