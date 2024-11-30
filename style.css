@@ -27,27 +27,27 @@ html, body {
   position: absolute;
 }/* Vị trí của từng khối thời gian theo viewport units */
 #hours {
-  left: 60.02vw;  /* 639 / 1080 = ~59vw */ /* 2000 / 2340 = ~85.5vh */
-  top: 89.42vh; /* 2000 / 2340 = ~85.5vh */
+  left: 60vw;  /* 639 / 1080 = ~59vw */ /* 2000 / 2340 = ~85.5vh */
+  top: 89.41vh; /* 2000 / 2340 = ~85.5vh */
 }
 
 #minutes {
   left: 64.3vw; /* 686 / 1080 = ~63.5vw */
-  top: 89.42vh;
+  top: 89.41vh;
 }
 
 #seconds {
-  left: 68.58vw;  /* 733 / 1080 = ~68vw */
-  top: 89.42vh;
+  left: 68.6vw;  /* 733 / 1080 = ~68vw */
+  top: 89.41vh;
 }
 
 #days {
   left: 76.9vw;  /* 733 / 1080 = ~68vw */
-  top: 89.42vh;
+  top: 89.41vh;
 }  
 
 /* Ảnh số */
 .time-block img {
   width: 1.89vw;
-  height: 1.15vh;
+  height: 1.16vh;
 }
