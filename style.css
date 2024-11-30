@@ -37,7 +37,7 @@ html, body {
 }
 
 #seconds {
-  left: 68vw;  /* 733 / 1080 = ~68vw */
+  left: 68.58vw;  /* 733 / 1080 = ~68vw */
   top: 89.42vh;
 }
 
