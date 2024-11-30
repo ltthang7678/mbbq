@@ -28,22 +28,22 @@ html, body {
 }/* Vị trí của từng khối thời gian theo viewport units */
 #hours {
   left: 59.02vw;  /* 639 / 1080 = ~59vw */ /* 2000 / 2340 = ~85.5vh */
-  top: 97.64vh; /* 2000 / 2340 = ~85.5vh */
+  top: 90.64vh; /* 2000 / 2340 = ~85.5vh */
 }
 
 #minutes {
   left: 63.54vw; /* 686 / 1080 = ~63.5vw */
-  top: 87.64vh;
+  top: 88.64vh;
 }
 
 #seconds {
   left: 68vw;  /* 733 / 1080 = ~68vw */
-  top: 77.64vh;
+  top: 87.64vh;
 }
 
 #days {
   left: 74.9vw;  /* 733 / 1080 = ~68vw */
-  top: 80.64vh;
+  top: 89.64vh;
 }  
 
 /* Ảnh số */
