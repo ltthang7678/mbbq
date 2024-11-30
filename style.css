@@ -1,0 +1,53 @@
+/* Reset mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Đảm bảo body và html chiếm toàn bộ màn hình */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Ẩn thanh cuộn */
+}
+
+/* Ảnh nền toàn màn hình */
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: url('background.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+/* Định dạng khối thời gian */
+.time-block {
+  display: flex;
+  position: absolute;
+}/* Vị trí của từng khối thời gian theo viewport units */
+#hours {
+  left: 59.02vw;  /* 639 / 1080 = ~59vw */ /* 2000 / 2340 = ~85.5vh */
+  top: 87.64vh; /* 2000 / 2340 = ~85.5vh */
+}
+
+#minutes {
+  left: 63.54vw; /* 686 / 1080 = ~63.5vw */
+  top: 87.64vh;
+}
+
+#seconds {
+  left: 68vw;  /* 733 / 1080 = ~68vw */
+  top: 87.64vh;
+}
+
+#days {
+  left: 74.9vw;  /* 733 / 1080 = ~68vw */
+  top: 87.64vh;
+}  
+
+/* Ảnh số */
+.time-block img {
+  width: 1.84vw;
+  height: 1.14vh;
+}
