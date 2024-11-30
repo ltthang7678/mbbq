@@ -32,7 +32,7 @@ html, body {
 }
 
 #minutes {
-  left: 63.86vw; /* 686 / 1080 = ~63.5vw */
+  left: 64.86vw; /* 686 / 1080 = ~63.5vw */
   top: 89.42vh;
 }
 
